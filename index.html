@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Calculator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Samuel's Restaurant Food Menu</h1>
+    <hr />
+    <br />
+
+    <h1>Select your Choice</h1>
+    <hr />
+    <br />
+
+    <table>
+      <tr>
+        <th><h2>Appetizers</h2></th>
+        <td>
+          Small Fries with any sauce of your choice = 5$ <br />
+          <input id="small-fries" type="number" />
+        </td>
+        <td>
+          Medium Fries with any sauce of your choice = 13$ <br />
+          <input id="medium-fries" type="number" />
+        </td>
+        <td>
+          Large Fries with any sauce of your choice = 20$ <br />
+          <input id="large-fries" type="number" />
+        </td>
+        <br />
+        <td>
+          Water = 1$ <br />
+          <input id="water" type="number" />
+        </td>
+        <td>
+          Cold drinks = 4$ <br />
+          <input id="cold-drinks" type="number" />
+        </td>
+        <td>
+          Stuffed Mushrooms = 9$ <br />
+          <input id="stuffed-mushrooms" type="number" />
+        </td>
+      </tr>
+
+      <tr>
+        <th><h2>Seafood</h2></th>
+        <td>
+          Salmon and Chicken steak = 25$ <br />
+          <input id="salmonIn" type="number" />
+        </td>
+        <td>
+          Lobsters and rice with vegetables = 30$ <br />
+          <input id="lobsters" type="number" />
+        </td>
+        <td>
+          Fried Shrimp = 8,99$ <br />
+          <input id="fried-shrimp" type="number" />
+        </td>
+        <td>
+          Fried Losbter = 9,99$ <br />
+          <input id="fried-lobster" type="number" />
+        </td>
+        <td>
+          Fish and Chips = 10,95$ <br />
+          <input id="fish-and-chips" type="number" />
+        </td>
+        <td>
+          Crab = 20$ <br />
+          <input id="crab" type="number" />
+        </td>
+      </tr>
+
+      <tr>
+        <th><h2>Burgers</h2></th>
+        <td>
+          Burger with perl chicken on fresh clabatta bun with lettuce, tomato
+          and peri mayo = 11,94$ <br />
+          <input id="perl-chicken-burger" type="number" />
+        </td>
+        <td>
+          Beef Burger = 6,99$ <br /><input id="beef-burger" type="number" />
+        </td>
+        <td>
+          Chicken Burger = 7,99$ <br /><input
+            id="chicken-burger"
+            type="number"
+          />
+        </td>
+        <td>
+          Cheese Burger = 8,99$ <br />
+          <input id="cheese-burger" type="number" />
+        </td>
+        <td>
+          Beef Bacon = 7,99$ <br /><input id="beef-bacon" type="number" />
+        </td>
+        <td>
+          Veggie Burger = 6,99$ <br /><input id="veggie-burger" type="number" />
+        </td>
+      </tr>
+
+      <tr>
+        <th><h2>Main Courses</h2></th>
+        <td>
+          Chicken and Rice Bowl = 14,70$ <br /><input
+            id="chicken-and-rice-bowl"
+            type="number"
+          />
+        </td>
+        <td>
+          20pcs Flaming Hot Wings with Salad or Rice = 20,35$
+          <br /><input id="wings-and-salad" type="number" name="" id="" />
+        </td>
+        <td>
+          Vegetable Salad With Mayo and rice = 20$ <br /><input
+            id="vegetable-salad"
+            type="number"
+          />
+        </td>
+        <td>
+          Fried Calmari with beans or rice or both.= 16$ <br /><input
+            id="fried-calmari"
+            type="number"
+          />
+        </td>
+        <td>
+          Bruschetta = 15$ <br />
+          <input id="bruschetta" type="number" />
+        </td>
+        <td>
+          Grilled Salmon = 20$ <br />
+          <input id="grilled-salmon" type="number" />
+        </td>
+      </tr>
+
+      <tr>
+        <th><h2>Dessert</h2></th>
+        <td>
+          Orange Ice Cream Bombe = 15$ <br /><input
+            id="orange-ice-cream"
+            type="number"
+          />
+        </td>
+        <td>
+          Oreo Ball = 10$ <br />
+          <input id="oreo-ball" type="number" />
+        </td>
+        <td>
+          Kids Ice Cream = 5$ <br />
+          <input id="kids-ice-cream" type="number" />
+        </td>
+        <td>
+          Apple dumpling = 5$ <br />
+          <input id="apple-dumpling" type="number" />
+        </td>
+        <td>
+          Cocunut Cake = 6$ <br />
+          <input id="cocunut-cake" type="number" />
+        </td>
+        <td>
+          Cheese Cake = 7$ <br />
+          <input id="cheese-cake" type="number" />
+        </td>
+      </tr>
+    </table>
+    <br />
+
+    <button id="lightmode">LightMode</button>
+    <button id="darkmode">DarkMode</button>
+    <br />
+
+    <p>
+      Your Order Please:<input id="order-here" type="text" />
+      <button id="register">Register</button>
+    </p>
+    <p>Your total is:<output id="your-total"></output></p>
+  </body>
+</html>
