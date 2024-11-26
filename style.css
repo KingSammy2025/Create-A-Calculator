@@ -1,4 +1,4 @@
-html {
+ html {
   background-image: url(images/blank\ food\ menu\ template.avif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,14 +15,14 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#lightmode {
+#light-mode {
   background: white;
   border-radius: 25px;
   padding: 5px 10px;
   text-align: center;
   font-size: 16px;
 }
-#darkmode {
+#dark-mode {
   background: black;
   color: white;
   border-radius: 25px;
