@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html id="the-html" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,12 +8,12 @@
     <script defer src="script.js"></script>
   </head>
 
-  <body>
-    <h1>Samuel's Restaurant Food Menu</h1>
+  <body id="the-body">
+    <h1 id="h1-1">Samuel's Restaurant Food Menu</h1>
     <hr />
     <br />
 
-    <h1>Select your Choice</h1>
+    <h1 id="h1-2">Select your Choice</h1>
     <hr />
     <br />
 
@@ -51,7 +51,7 @@
         <th><h2>Seafood</h2></th>
         <td>
           Salmon and Chicken steak = 25$ <br />
-          <input id="salmonIn" type="number" />
+          <input id="salmon" type="number" />
         </td>
         <td>
           Lobsters and rice with vegetables = 30$ <br />
@@ -169,14 +169,14 @@
     </table>
     <br />
 
-    <button id="lightmode">LightMode</button>
-    <button id="darkmode">DarkMode</button>
+    <button id="light-mode">LightMode</button>
+    <button id="dark-mode">DarkMode</button>
     <br />
 
-    <p>
-      Your Order Please:<input id="order-here" type="text" />
+    <p id="request">
+      Your Order Please:
       <button id="register">Register</button>
     </p>
-    <p>Your total is:<output id="your-total"></output></p>
+    <p id="order">Your total is: <output id="your-total"></output></p>
   </body>
 </html>
